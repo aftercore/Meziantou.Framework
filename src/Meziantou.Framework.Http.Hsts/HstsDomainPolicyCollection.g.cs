@@ -10,24 +10,24 @@ partial class HstsDomainPolicyCollection
 {
     private void LoadPreloadDomains()
     {
-        // HSTS preload data source: https://raw.githubusercontent.com/chromium/chromium/2dd0b1ec7c4aa23161f589d2056459963b1afe63/net/http/transport_security_state_static.json
-        // Commit date: 2026-02-06T20:51:15.0000000+00:00
+        // HSTS preload data source: https://raw.githubusercontent.com/chromium/chromium/b4333d4f518704fdd20ee4b241b91d007ff61eab/net/http/transport_security_state_static.json
+        // Commit date: 2026-08-31T14:31:18.0000000+00:00
         CollectionsMarshal.SetCount(_policies, 4);
 
         var dict1 = new ConcurrentDictionary<string, HstsDomainPolicy>(concurrencyLevel: -1, capacity: 61, comparer: StringComparer.OrdinalIgnoreCase);
         _policies[0] = dict1;
         Load(dict1, 51, "preload_1.bin");
 
-        var dict2 = new ConcurrentDictionary<string, HstsDomainPolicy>(concurrencyLevel: -1, capacity: 84515, comparer: StringComparer.OrdinalIgnoreCase);
+        var dict2 = new ConcurrentDictionary<string, HstsDomainPolicy>(concurrencyLevel: -1, capacity: 86331, comparer: StringComparer.OrdinalIgnoreCase);
         _policies[1] = dict2;
-        Load(dict2, 84505, "preload_2.bin");
+        Load(dict2, 86321, "preload_2.bin");
 
-        var dict3 = new ConcurrentDictionary<string, HstsDomainPolicy>(concurrencyLevel: -1, capacity: 8049, comparer: StringComparer.OrdinalIgnoreCase);
+        var dict3 = new ConcurrentDictionary<string, HstsDomainPolicy>(concurrencyLevel: -1, capacity: 8129, comparer: StringComparer.OrdinalIgnoreCase);
         _policies[2] = dict3;
-        Load(dict3, 8039, "preload_3.bin");
+        Load(dict3, 8119, "preload_3.bin");
 
-        var dict4 = new ConcurrentDictionary<string, HstsDomainPolicy>(concurrencyLevel: -1, capacity: 161, comparer: StringComparer.OrdinalIgnoreCase);
+        var dict4 = new ConcurrentDictionary<string, HstsDomainPolicy>(concurrencyLevel: -1, capacity: 163, comparer: StringComparer.OrdinalIgnoreCase);
         _policies[3] = dict4;
-        Load(dict4, 151, "preload_4.bin");
+        Load(dict4, 153, "preload_4.bin");
     }
 }
