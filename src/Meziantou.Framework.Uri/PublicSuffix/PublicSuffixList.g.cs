@@ -7,11 +7,11 @@ namespace Meziantou.Framework;
 
 static partial class PublicSuffixList
 {
-    // Public Suffix List source: https://raw.githubusercontent.com/publicsuffix/list/3955e3ec29b94c3cca7bd4509c5f14a7c0959e26/public_suffix_list.dat
-    // Commit date: 2026-09-08T12:18:25.0000000+00:00
-    private const int EntryCount = 10325;
-    private const int RuleCountValue = 10325;
-    private const long LastUpdatedTicks = 639244667050000000L;
+    // Public Suffix List source: https://raw.githubusercontent.com/publicsuffix/list/6cd82aff889e3d64e5e03bc5c1f43da1934a960a/public_suffix_list.dat
+    // Commit date: 2026-10-01T23:02:42.0000000+00:00
+    private const int EntryCount = 10333;
+    private const int RuleCountValue = 10333;
+    private const long LastUpdatedTicks = 639264925620000000L;
 
     private static FrozenDictionary<string, PublicSuffixRuleFlags> LoadRules()
     {
@@ -2719,7 +2719,6 @@ static partial class PublicSuffixList
         "jprs",
         "js.cn",
         "juegos",
-        "juniper",
         "jur.pro",
         "jus.br",
         "jx.cn",
@@ -7049,7 +7048,6 @@ static partial class PublicSuffixList
         "aliases121.com",
         "alibabacloudcs.com",
         "alp1.ae.flow.ch",
-        "alpha-myqnapcloud.com",
         "altervista.org",
         "alwaysdata.net",
         "am.leg.br",
@@ -7165,6 +7163,8 @@ static partial class PublicSuffixList
         "authgear-staging.com",
         "authgearapps.com",
         "avocat.fr",
+        "aws-gov.databricksapps.us",
+        "aws.databricksapps.com",
         "awsapps.com",
         "awsglobalaccelerator.com",
         "azerbaijan.su",
@@ -7547,7 +7547,6 @@ static partial class PublicSuffixList
         "deus-canvas.com",
         "deuxfleurs.eu",
         "deuxfleurs.page",
-        "dev-myqnapcloud.com",
         "dev.cv",
         "dev.project-study.com",
         "development.run",
@@ -8033,6 +8032,7 @@ static partial class PublicSuffixList
         "game-host.org",
         "game-server.cc",
         "gb.net",
+        "gcp.databricksapps.com",
         "gda.pl",
         "gdansk.pl",
         "gdynia.pl",
@@ -8064,6 +8064,7 @@ static partial class PublicSuffixList
         "gitpage.si",
         "gl.srv.us",
         "gleeze.com",
+        "glideos.app",
         "gliwice.pl",
         "global.prod.fastly.net",
         "global.replit.dev",
@@ -8170,6 +8171,7 @@ static partial class PublicSuffixList
         "hopto.org",
         "hoquiam.wa.us",
         "hosp.uk",
+        "hosted-by-files.com",
         "hostedpi.com",
         "hosting-cluster.nl",
         "hostyhosting.io",
@@ -8248,6 +8250,7 @@ static partial class PublicSuffixList
         "ipifony.net",
         "ipv64.de",
         "ipv64.net",
+        "iqhs.pl",
         "ir.md",
         "iran.liara.run",
         "is-a-anarchist.com",
@@ -9543,9 +9546,11 @@ static partial class PublicSuffixList
         "simplesite.pl",
         "sinaapp.com",
         "sisko.replit.dev",
+        "site.hosting-cluster.nl",
         "site.rb-hosting.io",
         "site.tb-hosting.com",
         "site.transip.me",
+        "site.webhosting.be",
         "siteleaf.net",
         "sk.eu.org",
         "skierniewice.pl",
@@ -9661,6 +9666,7 @@ static partial class PublicSuffixList
         "supabase.net",
         "supersale.jp",
         "support.site",
+        "surge.sh",
         "surveys.so",
         "svn-repos.de",
         "swedencentral-01.azurewebsites.net",
@@ -10168,6 +10174,7 @@ static partial class PublicSuffixList
         "auiusercontent.com",
         "awdev.ca",
         "awsapprunner.com",
+        "azure.databricksapps.com",
         "azurecontainer.io",
         "beget.app",
         "begetcdn.cloud",
@@ -10193,6 +10200,7 @@ static partial class PublicSuffixList
         "compute.amazonaws.com",
         "compute.amazonaws.com.cn",
         "compute.estate",
+        "compute.herokuapp.com",
         "cursorusercontent.com",
         "customer-oci.com",
         "d.crm.dev",
